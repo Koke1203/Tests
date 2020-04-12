@@ -1,0 +1,106 @@
+//menu vertical
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+#sidebar{
+    position: fixed;
+    width: 235px;
+    height: 100%;
+    background: #151719;
+    left: -38px;
+}
+
+#sidebar ul li{
+    color: rgba(230,230,230,0.9);
+    list-style: none;
+    padding: 15px 5px;
+    border-bottom: 1px solid rgba(100,100,100,0.3);
+}
+
+#sidebar .toggle-btn{
+    position: absolute;
+    left: 230px;
+    top: 20px;
+}
+
+h1{
+    color: #B5DEB5;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.btn-cuenta{
+    background: crimson;
+    color: #fff;
+    margin-left: 30%;
+    font-size: 18px;
+}
+
+.btn-cuenta:active{
+    transform: scale(1.05);
+}
+
+.add-contenedor{
+    width: 600px;
+    //text-align: center;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+
+.selectores{
+    width: 207px;
+    height: 32px;
+}
+
+.titulo-crear{
+    margin-left: 25%;
+}
+
+#searchTerm{
+    margin-left: 5%;
+}
+
+//submenu vertical
+.mainmenu, .submenu {
+  list-style: none;
+  padding: 0;
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.mainmenu a {
+  display: block;  
+  padding: 0px;
+}
+
+.mainmenu li:hover .submenu {
+  display: block;
+  max-height: 200px;
+}
+
+.submenu {
+  overflow: hidden;
+  max-height: 0;
+  -webkit-transition: all 0.5s ease-out;
+}
+
+input[type=text].is-invalid,input[type=password].is-invalid{
+    border-color: #dc3545;
+    padding-right: 20px;
+    background-repeat: no-repeat;
+    background-position: center right;
+    //background-size: 12 12;
+    background-image: url("/SistemaBanco/images/is-invalid.png");
+}
+
+select.is-invalid{
+    border-color: #dc3545;
+    box-shadow: 0 0 1px 3px rgba(59, 153, 252, .7);
+    box-shadow: 0 0 0 3px -moz-mac-focusring;
+    color: #222; 
+    outline: none;
+}

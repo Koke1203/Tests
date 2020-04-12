@@ -1,0 +1,170 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background: url(img/mountain.png) no-repeat center fixed;
+    background-size: cover;
+}
+
+.main-section {
+    margin: 0 auto;
+    margin-top: 130px;
+    padding: 0;
+}
+
+.modal-content{
+    background-color: #434e5a;
+    opacity: .8;
+    padding: 0 18px;
+    border-radius: 10px;
+}
+
+.user-img img{
+    height: 120px;
+    width: 120px;
+}
+
+.user-img {
+    margin-top: -60px;
+    margin-bottom: 45px;
+}
+
+.form-group{
+    margin-bottom:25px;
+}
+
+.form-group input{
+    height: 42px;
+    border-radius: 5px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding-left: 54px;
+}
+
+.form-group::before{
+    font-family: 'Font Awesome\ 5 Free';
+    content: "\f1fa";
+    position: absolute;
+    font-size: 22px;
+    left: 28px;
+    padding-top: 4px;
+    color: #55e68;
+}
+
+.form-group:last-of-type::before{
+    content: "\f023";
+}
+
+.form-input button{
+    width: 40%;
+    margin: 5px 0 25px;
+}
+
+.btn-success{
+    background-color: #1c6288;
+    font-size: 19px;
+    border-radius: 5px;
+    padding: 7px 14px;
+    border: 1px solid #daf1f;
+}
+
+.btn-success:hover {
+    background-color: #13445e;
+    border: 1px solid #daf1f;
+}
+
+.forgot{
+    padding: 5px 0 25px;
+}
+
+.forgot a{
+    color: #daf1f;
+}
+
+#cajero{
+    color: #daf1f;
+}
+
+.no-principal{
+    background-color: #13445e;
+}
+
+.contenedor_cuenta{
+    text-align: center;
+    width: 900px;
+    height: 350px;
+    background-color: white;
+    margin: auto;
+    margin-top: 7%;
+    margin-left: 20%;
+}
+
+.lista_cuenta{
+    background-color: #ecedf0;
+}
+
+.titulo_cuenta{
+    font-size: 20px ;
+ 
+    margin-left: 0.5%;
+    color: black;
+  
+    caption-side: top;
+}
+
+.imagen_cuenta{
+    float: left;
+    margin: 5px;
+    margin-left: 20px;
+    width: 33px;
+    height: 25px;
+}
+
+.my-custom-scrollbar {
+    overflow: auto;
+}
+
+.table-wrapper-scroll-y {
+    display: block;
+}
+
+.tabla_cuenta{
+    border-top: 2px solid white;
+    table-layout: fixed;
+    margin-top: 1%;
+}
+
+.usuario{
+    font-size: 15px;
+    margin-left: 9%;
+    margin-top: -0.7%;
+    color: #5b5455;
+}
+
+.encabezado{
+    margin: auto;
+    margin-left: 20%;
+    margin-top: 2%;
+    width: 1000px;
+    height: 5px;
+}
+
+.header{
+    width: 100%;
+    height: 7%;
+    background-color: #e22737;
+}
+
+.subtitulo{
+    font-size: 15px;
+    color: #5b5455;
+}
+
+.una{
+    height: 80px;
+    width: 197px;
+    color: #e22737;
+}
+
+.menu{
+    color: rgba(230,230,230,0.9);
+    text-decoration:none;
+}
